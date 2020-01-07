@@ -280,7 +280,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 353544668}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 436121766}
+        m_MethodName: transfer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &353544668
@@ -431,7 +442,7 @@ MonoBehaviour:
   textInput: {fileID: 2042546282}
   text_Btn: {fileID: 353544667}
   count_Btn: {fileID: 444618225}
-  textTransfer: {fileID: 0}
+  textTransfer: {fileID: 488189990}
   textNumber: {fileID: 291930845}
 --- !u!4 &436121767
 Transform:
@@ -528,7 +539,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 444618226}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 436121766}
+        m_MethodName: count
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &444618226

@@ -1,18 +1,40 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
+
 
 public class SimpleUserInterface : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public InputField textInput;
+    public Button text_Btn;
+    public Button count_Btn;
+    public Text textTransfer;
+    public Text textNumber;
+
+    int counter;
+
+
+   public void transferText()
     {
+        textTransfer.text = textInput.text;
         
+       
     }
 
-    // Update is called once per frame
-    void Update()
+    public void count()
     {
-        
+       
+        counter += 1;
+        textNumber.text = counter.ToString();
+
     }
+
+   
+
+
+ 
+
 }

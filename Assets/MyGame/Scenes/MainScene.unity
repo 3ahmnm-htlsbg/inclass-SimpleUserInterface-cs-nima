@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 291930846}
   - component: {fileID: 291930845}
   m_Layer: 5
-  m_Name: Text (1)
+  m_Name: Text_Number
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 353544668}
   - component: {fileID: 353544667}
   m_Layer: 5
-  m_Name: Button
+  m_Name: text_Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -379,12 +379,12 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
+    m_MaxSize: 45
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 0
     m_HorizontalOverflow: 1
@@ -399,6 +399,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 428824872}
   m_CullTransparentMesh: 0
+--- !u!1 &436121765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 436121767}
+  - component: {fileID: 436121766}
+  m_Layer: 0
+  m_Name: InterfaceScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &436121766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436121765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21e4113f4bd64f74aa0a955584460891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textInput: {fileID: 2042546282}
+  text_Btn: {fileID: 353544667}
+  count_Btn: {fileID: 444618225}
+  textTransfer: {fileID: 0}
+  textNumber: {fileID: 291930845}
+--- !u!4 &436121767
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436121765}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.7137671, y: -0.18493412, z: 57.63672}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &444618223
 GameObject:
   m_ObjectHideFlags: 0
@@ -412,7 +460,7 @@ GameObject:
   - component: {fileID: 444618226}
   - component: {fileID: 444618225}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: count_Btn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -532,7 +580,7 @@ GameObject:
   - component: {fileID: 488189991}
   - component: {fileID: 488189990}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Text_transfer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1101,7 +1149,7 @@ GameObject:
   - component: {fileID: 2042546283}
   - component: {fileID: 2042546282}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: InputField_Result
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
